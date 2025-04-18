@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Explore Dream Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SaveTrip</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Enter a destination ">
+                <div class="button-group">
+                    <button id="searchBtn">Search</button>
+                    <button id="clearBtn">Clear</button>
+                </div>
+            </div>
+        </section>
+        
+    </header>
+
+    <main>
+        <article>
+            <section class="social-section">
+
+                <div class="divider-line"></div>
+                <div class="social-container">
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/124/124014.png" alt="Facebook">
+                        </a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/124/124013.png" alt="Instagram">
+                        </a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="https://www.twitter.com/" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/124/124012.png" alt="Twitter">
+                        </a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="https://cdn-icons-png.flaticon.com/512/124/124011.png" alt="YouTube">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="hero-section">
+                <div class="title">EXPLORE DREAM DESTINATION</div>
+                <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+                <button class="book-now-btn">BOOK NOW</button>
+            </section> 
+        </article>
+        <section class="results-section" id="resultsSection" style="display: none;">
+            <h2>Search Results</h2>
+            <div id="searchResults"></div>
+        </section>
+       
+       
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
